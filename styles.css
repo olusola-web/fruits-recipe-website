@@ -319,9 +319,9 @@ body.dark-theme {
 
 /* ENJOY */
 .enjoy-container {
-  padding-top: 2rem;
+  padding-top: 10rem;
   grid-template-columns: 240px;
-  justify-content: center;
+  justify-content: space-between;
   row-gap: 2.5rem;
 }
 .enjoy__card {
@@ -652,8 +652,8 @@ body.dark-theme {
 .show-scroll {
   bottom: 3rem;
 }
-/* FOR SMALL DEVICES */
-@media screen and (max-width: 300px){
+FOR SMALL DEVICES
+@media screen and (max-width: 300px) {
   .container {
     margin-inline: 1rem;
   }
